@@ -6,7 +6,8 @@
     "test": "jest --passWithNoTests",
     "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- --findRelatedTests",
-    "test:ci": "npm test -- --coverage"
+    "test:ci": "npm test -- --coverage",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -23,9 +24,9 @@
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-standard": "^4.1.0",
     "git-commit-msg-linter": "^2.7.0",
-    "husky": "^7.0.4",
+    "husky": "^9.1.7",
     "jest": "^27.5.1",
-    "lint-staged": "^11.2.6",
+    "lint-staged": "^15.2.11",
     "ts-jest": "^27.1.5",
     "typescript": "^3.9.10"
   }
